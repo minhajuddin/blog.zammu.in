@@ -1,11 +1,15 @@
 ---
-title: Hello, world!
-date: 2015-11-28
-tags: init, hello-world, greetings
+title: "Hello, world!"
+date: {}
+tags: "init, hello-world, greetings"
+published: true
 ---
+
 
 Hello everyone!
 
 I am excited to open up Zammu for private beta. This has been a product which has been at the back of my mind for a very long time.
 
 I hope it helps web developers in building and maintaining websites easily.
+
+Static sites are awesome, lets make them more accessible!
