@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[The Zammu Blog]]></title>
+  <subtitle><![CDATA[Interesting notes on how we run zammu.in]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://blog.zammu.in/"/>
+  <updated>2016-01-11T10:05:15.000Z</updated>
+  <id>http://blog.zammu.in/</id>
+  
+  <author>
+    <name><![CDATA[Khaja Minhajuddin]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://blog.zammu.in/2016/01/11/hello-world/"/>
+    <id>http://blog.zammu.in/2016/01/11/hello-world/</id>
+    <published>2016-01-11T10:05:21.000Z</published>
+    <updated>2016-01-11T10:05:15.000Z</updated>
+    <content type="html"><![CDATA[<p>Hello everyone!</p>
+<p>I am excited to open up Zammu for private beta. This has been a product which has been at the back of my mind for a very long time.</p>
+<p>I hope it helps web developers in building and maintaining websites easily.</p>
+<p>Static sites are awesome, lets make them more accessible!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Hello everyone!</p>
+<p>I am excited to open up Zammu for private beta. This has been a product which has been at the back of my mind for ]]>
+    </summary>
+    
+      <category term="greetings" scheme="http://blog.zammu.in/tags/greetings/"/>
+    
+      <category term="hello-world" scheme="http://blog.zammu.in/tags/hello-world/"/>
+    
+      <category term="init" scheme="http://blog.zammu.in/tags/init/"/>
+    
+  </entry>
+  
+</feed>
