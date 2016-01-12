@@ -21,12 +21,6 @@ built on Github automatically for each git push.
  4. That's it. Now you whenever you push to your github repository, your website
     built using Hugo will be published to the subdomain.zammu.in
 
-P.S I am the founder of https://zammu.in and would love to hear your feedback on
-it at [https://zammu.in/feedback](https://zammu.in/feedback?utm_src=hugo.zammu.in)
-
-P.P.S This website is also hosted on https://zammu.in/ . You can checkout its
-source at https://github.com/zammu/hugo.zammu.in
-
 - - -
 
 ### Here is a script which can be used to setup your repository
