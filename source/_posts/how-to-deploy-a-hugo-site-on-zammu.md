@@ -4,7 +4,7 @@ tags:
 - hugo
 - help
 - how-to
-- github
+- github-pages
 ---
 
 You can now setup your zammu sites to build using the [Hugo]() static site generator.
