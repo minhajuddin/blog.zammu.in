@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Interesting notes on how we run zammu.in]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.zammu.in/"/>
-  <updated>2016-01-19T11:52:39.000Z</updated>
+  <updated>2016-01-19T17:27:36.000Z</updated>
   <id>http://blog.zammu.in/</id>
   
   <author>
@@ -18,8 +18,8 @@
     <title><![CDATA[Hello World]]></title>
     <link href="http://blog.zammu.in/2016/01/19/hello-world/"/>
     <id>http://blog.zammu.in/2016/01/19/hello-world/</id>
-    <published>2016-01-19T11:52:45.000Z</published>
-    <updated>2016-01-19T11:52:39.000Z</updated>
+    <published>2016-01-19T17:28:12.000Z</published>
+    <updated>2016-01-19T17:27:36.000Z</updated>
     <content type="html"><![CDATA[<p>Hello everyone!</p>
 <p>I am excited to open up Zammu for private beta. This has been a product which has been at the back of my mind for a very long time.</p>
 <p>I hope it helps web developers in building and maintaining websites easily.</p>
@@ -43,7 +43,7 @@
     <link href="http://blog.zammu.in/2016/01/19/creating-banner-images-using-html/"/>
     <id>http://blog.zammu.in/2016/01/19/creating-banner-images-using-html/</id>
     <published>2016-01-19T09:21:13.000Z</published>
-    <updated>2016-01-19T11:52:39.000Z</updated>
+    <updated>2016-01-19T17:27:36.000Z</updated>
     <content type="html"><![CDATA[<p>While building <a href="https://zammu.in/" target="_blank" rel="external">Zammu</a>, I had to build some banner images to use for the <a href="https://facebook.com/zammuhq" target="_blank" rel="external">Facebook</a> and <a href="https://twitter.com/zammuhq" target="_blank" rel="external">Twitter</a> cover photos. I am not very good with image editors like <a href="https://www.gimp.org/" target="_blank" rel="external">Gimp</a>. However, I know my way around HTML. These days, you can create any kind of layout with HTML. I just create the HTML needed for my banner image using the awesome <a href="http://getbootstrap.com" target="_blank" rel="external">bootstrap framework</a>. Opened it in Firefox and used the Firefox’s new <a href="https://hacks.mozilla.org/2015/09/trainspotting-firefox-41/" target="_blank" rel="external">“Screenshot Node”</a> feature to grab a snapshot of the image.</p>
 <p>Here is a screenshot of me capturing a screenshot :)</p>
 <img src="/2016/01/19/creating-banner-images-using-html/banner-image-screenshot.png" alt="Banner Image Screenshot" title="Banner Image Screenshot">
@@ -66,7 +66,7 @@
     <link href="http://blog.zammu.in/2016/01/14/how-to-deploy-a-hexo-website-on-zammu/"/>
     <id>http://blog.zammu.in/2016/01/14/how-to-deploy-a-hexo-website-on-zammu/</id>
     <published>2016-01-14T09:01:03.000Z</published>
-    <updated>2016-01-19T11:52:39.000Z</updated>
+    <updated>2016-01-19T17:27:36.000Z</updated>
     <content type="html"><![CDATA[<p>You can now setup your Zammu websites to be built using the awesome <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> static site generator now.</p>
 <p><link rel="stylesheet" type="text/css" href="http://hugo.zammu.in/asciinema-player.css"></p>
 <script src="http://hugo.zammu.in/asciinema-player.js"></script>
@@ -104,14 +104,19 @@
     <link href="http://blog.zammu.in/2016/01/12/how-to-deploy-a-hugo-site-on-zammu/"/>
     <id>http://blog.zammu.in/2016/01/12/how-to-deploy-a-hugo-site-on-zammu/</id>
     <published>2016-01-12T11:43:45.000Z</published>
-    <updated>2016-01-19T11:52:39.000Z</updated>
+    <updated>2016-01-19T17:27:36.000Z</updated>
     <content type="html"><![CDATA[<p>You can now setup your zammu sites to build using the <a href="/">Hugo</a> static site generator.</p>
-<p><a href="https://gohugo.io/" target="_blank" rel="external">Hugo</a> is a really fast static site generator. However, it is not<br>very accessible. In this short post I’ll show you how to get your Hugo website<br>built on Github automatically for each git push.</p>
+<p><a href="https://gohugo.io/" target="_blank" rel="external">Hugo</a> is a really fast static site generator. However, it is not
+very accessible. In this short post I’ll show you how to get your Hugo website
+built on Github automatically for each git push.</p>
 <ol>
 <li>Sign up for <a href="https://zammu.in/?invitation_code=GOHUGO16" target="_blank" rel="external">https://zammu.in/</a> using the invitation code <code>GOHUGO16</code>.</li>
 <li>Link up your Github Profile from zammu.in’s home page after signing in.</li>
-<li>Create a new site using the “Github =&gt; Hugo =&gt; Github” recipe and enter the<br> github url of your hugo website e.g. <em>zammu/hugo.zammu.in</em> with the other<br> details.</li>
-<li>That’s it. Now you whenever you push to your github repository, your website<br>built using Hugo will be published to the subdomain.zammu.in</li>
+<li>Create a new site using the “Github =&gt; Hugo =&gt; Github” recipe and enter the
+ github url of your hugo website e.g. <em>zammu/hugo.zammu.in</em> with the other
+ details.</li>
+<li>That’s it. Now you whenever you push to your github repository, your website
+built using Hugo will be published to the subdomain.zammu.in</li>
 </ol>
 <hr>
 <h3 id="Here_is_a_script_which_can_be_used_to_setup_your_repository"><a href="#Here_is_a_script_which_can_be_used_to_setup_your_repository" class="headerlink" title="Here is a script which can be used to setup your repository"></a>Here is a script which can be used to setup your repository</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># init the new site</span></span><br><span class="line">hugo new site awesome-hugo-blog</span><br><span class="line"></span><br><span class="line"><span class="comment"># init the repo</span></span><br><span class="line"><span class="built_in">cd</span> awesome-hugo-blog</span><br><span class="line">git init</span><br><span class="line">git commit -m <span class="string">'init'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># setup the theme</span></span><br><span class="line">git submodule add https://github.com/htdvisser/hugo-base16-theme themes/base16</span><br><span class="line"><span class="comment"># it is VERY important that you add it as a submodule and not just clone it</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># commit the theme</span></span><br><span class="line">git commit -m <span class="string">'added theme'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># update the config</span></span><br><span class="line">vim config.toml</span><br><span class="line">title = <span class="string">"My very awesome blog"</span></span><br><span class="line">theme = <span class="string">"base16"</span></span><br><span class="line">:<span class="built_in">exit</span></span><br><span class="line"></span><br><span class="line">git commit -m <span class="string">'updated config'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># now we need to go to github and create our repository and then</span></span><br><span class="line">git remote add origin git@github.com:minhajuddin/awesome-hugo-blog</span><br><span class="line">git push origin master -u</span><br><span class="line"></span><br><span class="line"><span class="comment"># now we need to go to https://zammu.in/ and create a new site with the following  info</span></span><br><span class="line"><span class="comment"># Recipe = Github =&gt; Hugo =&gt; Github</span></span><br><span class="line"><span class="comment"># Title = My awesome Blog</span></span><br><span class="line"><span class="comment"># Domain =</span></span><br><span class="line"><span class="comment"># Subdomain = awesomehugo</span></span><br><span class="line"><span class="comment"># Github URL = minhajuddin/awesome-hugo-blog</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"That's it we are done"</span></span><br></pre></td></tr></table></figure>
