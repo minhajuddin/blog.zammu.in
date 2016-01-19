@@ -75,3 +75,12 @@ feed:
   path: atom.xml
   limit: 20
   hub:
+
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: false
+  smartLists: true
+  smartypants: true
