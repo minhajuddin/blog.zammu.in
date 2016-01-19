@@ -20,9 +20,9 @@ widgets:
 - recent_posts
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-72393916-1
 favicon: /favicon.png
-twitter:
+twitter: zammuhq
 google_plus:
 fb_admins:
 fb_app_id:
