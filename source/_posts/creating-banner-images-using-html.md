@@ -14,3 +14,5 @@ Here is a screenshot of me capturing a screenshot :)
 And here is my banner image :)
 
 {% asset_img banner.png Banner Image %}
+
+**Oh, by the way if you want to sign up for Zammu, use the invitation code [ZAMMUBLOG](https://zammu.in/?invitation_code=ZAMMUBLOG) :)**
