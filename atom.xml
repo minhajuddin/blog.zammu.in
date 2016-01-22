@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Interesting notes on how we run zammu.in]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.zammu.in/"/>
-  <updated>2016-01-19T17:27:36.000Z</updated>
+  <updated>2016-01-22T13:24:13.000Z</updated>
   <id>http://blog.zammu.in/</id>
   
   <author>
@@ -16,10 +16,10 @@
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://blog.zammu.in/2016/01/19/hello-world/"/>
-    <id>http://blog.zammu.in/2016/01/19/hello-world/</id>
-    <published>2016-01-19T17:28:12.000Z</published>
-    <updated>2016-01-19T17:27:36.000Z</updated>
+    <link href="http://blog.zammu.in/2016/01/22/hello-world/"/>
+    <id>http://blog.zammu.in/2016/01/22/hello-world/</id>
+    <published>2016-01-22T13:24:19.000Z</published>
+    <updated>2016-01-22T13:24:13.000Z</updated>
     <content type="html"><![CDATA[<p>Hello everyone!</p>
 <p>I am excited to open up Zammu for private beta. This has been a product which has been at the back of my mind for a very long time.</p>
 <p>I hope it helps web developers in building and maintaining websites easily.</p>
@@ -39,11 +39,37 @@
   </entry>
   
   <entry>
+    <title><![CDATA[How to deploy a Middleman website on Github pages using Zammu]]></title>
+    <link href="http://blog.zammu.in/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/"/>
+    <id>http://blog.zammu.in/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/</id>
+    <published>2016-01-22T13:10:21.000Z</published>
+    <updated>2016-01-22T13:24:13.000Z</updated>
+    <content type="html"><![CDATA[<p>Now you can deploy [Middleman] websites on [Github Pages] using [Zammu].</p>
+<h3 id="Step_1"><a href="#Step_1" class="headerlink" title="Step 1"></a>Step 1</h3><p>Click on the <em>New Site</em> button</p>
+<img src="/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/middleman1.png" alt="Screen1" title="Screen1">
+<h3 id="Step_2"><a href="#Step_2" class="headerlink" title="Step 2"></a>Step 2</h3><p>Select the <em>Middleman</em> generator
+<img src="/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/middleman2.png" alt="Screen2" title="Screen2"></p>
+<h3 id="Step_3"><a href="#Step_3" class="headerlink" title="Step 3"></a>Step 3</h3><p>Enter the Title, Subdomain and the Github url <em>zammu/middleman.zammu.in</em> and click <em>Create Site</em>.
+<img src="/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/middleman3.png" alt="Screen3" title="Screen3"></p>
+<p>That’s it, now when you push code to your Github repository.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Now you can deploy [Middleman] websites on [Github Pages] using [Zammu].</p>
+<h3 id="Step_1"><a href="#Step_1" class="headerlink" title="]]>
+    </summary>
+    
+      <category term="Github Pages" scheme="http://blog.zammu.in/tags/github-pages/"/>
+    
+      <category term="Middleman" scheme="http://blog.zammu.in/tags/middleman/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Creating Banner Images using HTML]]></title>
     <link href="http://blog.zammu.in/2016/01/19/creating-banner-images-using-html/"/>
     <id>http://blog.zammu.in/2016/01/19/creating-banner-images-using-html/</id>
     <published>2016-01-19T09:21:13.000Z</published>
-    <updated>2016-01-19T17:27:36.000Z</updated>
+    <updated>2016-01-22T13:24:13.000Z</updated>
     <content type="html"><![CDATA[<p>While building <a href="https://zammu.in/" target="_blank" rel="external">Zammu</a>, I had to build some banner images to use for the <a href="https://facebook.com/zammuhq" target="_blank" rel="external">Facebook</a> and <a href="https://twitter.com/zammuhq" target="_blank" rel="external">Twitter</a> cover photos. I am not very good with image editors like <a href="https://www.gimp.org/" target="_blank" rel="external">Gimp</a>. However, I know my way around HTML. These days, you can create any kind of layout with HTML. I just create the HTML needed for my banner image using the awesome <a href="http://getbootstrap.com" target="_blank" rel="external">bootstrap framework</a>. Opened it in Firefox and used the Firefox’s new <a href="https://hacks.mozilla.org/2015/09/trainspotting-firefox-41/" target="_blank" rel="external">“Screenshot Node”</a> feature to grab a snapshot of the image.</p>
 <p>Here is a screenshot of me capturing a screenshot :)</p>
 <img src="/2016/01/19/creating-banner-images-using-html/banner-image-screenshot.png" alt="Banner Image Screenshot" title="Banner Image Screenshot">
@@ -66,7 +92,7 @@
     <link href="http://blog.zammu.in/2016/01/14/how-to-deploy-a-hexo-website-on-zammu/"/>
     <id>http://blog.zammu.in/2016/01/14/how-to-deploy-a-hexo-website-on-zammu/</id>
     <published>2016-01-14T09:01:03.000Z</published>
-    <updated>2016-01-19T17:27:36.000Z</updated>
+    <updated>2016-01-22T13:24:13.000Z</updated>
     <content type="html"><![CDATA[<p>You can now setup your Zammu websites to be built using the awesome <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> static site generator now.</p>
 <p><link rel="stylesheet" type="text/css" href="http://hugo.zammu.in/asciinema-player.css"></p>
 <script src="http://hugo.zammu.in/asciinema-player.js"></script>
@@ -104,7 +130,7 @@
     <link href="http://blog.zammu.in/2016/01/12/how-to-deploy-a-hugo-site-on-zammu/"/>
     <id>http://blog.zammu.in/2016/01/12/how-to-deploy-a-hugo-site-on-zammu/</id>
     <published>2016-01-12T11:43:45.000Z</published>
-    <updated>2016-01-19T17:27:36.000Z</updated>
+    <updated>2016-01-22T13:24:13.000Z</updated>
     <content type="html"><![CDATA[<p>You can now setup your zammu sites to build using the <a href="/">Hugo</a> static site generator.</p>
 <p><a href="https://gohugo.io/" target="_blank" rel="external">Hugo</a> is a really fast static site generator. However, it is not
 very accessible. In this short post I’ll show you how to get your Hugo website
