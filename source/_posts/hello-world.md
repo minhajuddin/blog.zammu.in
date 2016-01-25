@@ -1,4 +1,5 @@
 title: Hello World
+date: 2016-01-11 14:31:03
 tags:
 - init
 - hello-world
