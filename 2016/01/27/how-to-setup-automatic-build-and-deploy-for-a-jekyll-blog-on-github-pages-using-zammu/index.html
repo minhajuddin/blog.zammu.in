@@ -3,17 +3,33 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: Automate | The Zammu Blog</title>
+  <title>How to setup automatic build and deploy for a jekyll blog on github pages using zammu | The Zammu Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Blog of zammu.in where we discuss interesting things about technology and our community">
-<meta property="og:type" content="website">
-<meta property="og:title" content="The Zammu Blog">
-<meta property="og:url" content="http://blog.zammu.in/tags/automate/index.html">
+  <meta name="description" content="In this blog post I’ll show you how to setup Automatic Deployment of Jekyll on Github Pages using Zammu.
+
+Setup Jekyll and add a Gemfile
+12gem install jekylljekyll new my-awesome-blog
+
+Setup a Gemfile">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to setup automatic build and deploy for a jekyll blog on github pages using zammu">
+<meta property="og:url" content="http://blog.zammu.in/2016/01/27/how-to-setup-automatic-build-and-deploy-for-a-jekyll-blog-on-github-pages-using-zammu/index.html">
 <meta property="og:site_name" content="The Zammu Blog">
-<meta property="og:description" content="Blog of zammu.in where we discuss interesting things about technology and our community">
+<meta property="og:description" content="In this blog post I’ll show you how to setup Automatic Deployment of Jekyll on Github Pages using Zammu.
+
+Setup Jekyll and add a Gemfile
+12gem install jekylljekyll new my-awesome-blog
+
+Setup a Gemfile">
+<meta property="og:updated_time" content="2016-01-27T11:31:58.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="The Zammu Blog">
-<meta name="twitter:description" content="Blog of zammu.in where we discuss interesting things about technology and our community">
+<meta name="twitter:title" content="How to setup automatic build and deploy for a jekyll blog on github pages using zammu">
+<meta name="twitter:description" content="In this blog post I’ll show you how to setup Automatic Deployment of Jekyll on Github Pages using Zammu.
+
+Setup Jekyll and add a Gemfile
+12gem install jekylljekyll new my-awesome-blog
+
+Setup a Gemfile">
 <meta name="twitter:creator" content="@zammuhq">
   
     <link rel="alternative" href="/atom.xml" title="The Zammu Blog" type="application/atom+xml">
@@ -79,39 +95,69 @@ ga('send', 'pageview');
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2016/01/26/trigger-your-deploys-using-our-brand-new-api/" class="archive-article-date">
-  <time datetime="2016-01-26T03:28:02.000Z" itemprop="datePublished">Jan 26</time>
+        <section id="main"><article id="post-how-to-setup-automatic-build-and-deploy-for-a-jekyll-blog-on-github-pages-using-zammu" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/01/27/how-to-setup-automatic-build-and-deploy-for-a-jekyll-blog-on-github-pages-using-zammu/" class="article-date">
+  <time datetime="2016-01-27T11:22:07.000Z" itemprop="datePublished">2016-01-27</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/01/26/trigger-your-deploys-using-our-brand-new-api/">Trigger your deploys using our brand new API</a>
+    <h1 class="article-title" itemprop="name">
+      How to setup automatic build and deploy for a jekyll blog on github pages using zammu
     </h1>
   
 
-    </header>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>In this blog post I’ll show you how to setup Automatic Deployment of Jekyll on Github Pages using Zammu.</p>
+<ol>
+<li><p>Setup Jekyll and add a Gemfile</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gem install jekyll</span><br><span class="line">jekyll new my-awesome-blog</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Setup a Gemfile. This step is very important.</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">'source "https://rubygems.org"'</span> &gt;&gt; Gemfile</span><br><span class="line"><span class="built_in">echo</span> <span class="string">'gem "jekyll"'</span> &gt;&gt; Gemfile</span><br></pre></td></tr></table></figure>
+<p>Once you are done with this step you should have a Gemfile with the following content:</p>
+<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">source <span class="string">"https://rubygems.org"</span></span><br><span class="line">gem <span class="string">"jekyll"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Push it to a Github Repository.</p>
+</li>
+<li>Log in to <a href="https://zammu.in" target="_blank" rel="external">https://zammu.in</a> and create a new site using the “Jekyll” generator</li>
+</ol>
+<p>That’s it. Now you can start creating new posting just by adding content and pushing to Github.</p>
+<h3 id="You_can_use_the_invitation_code_JEKYLLROCKS_to_signup_on_https_3A//zammu-in/jekyll_3Finvitation_code_3DJEKYLLROCKS"><a href="#You_can_use_the_invitation_code_JEKYLLROCKS_to_signup_on_https_3A//zammu-in/jekyll_3Finvitation_code_3DJEKYLLROCKS" class="headerlink" title="You can use the invitation code JEKYLLROCKS to signup on https://zammu.in/jekyll?invitation_code=JEKYLLROCKS"></a>You can use the invitation code <code>JEKYLLROCKS</code> to signup on <a href="https://zammu.in/jekyll?invitation_code=JEKYLLROCKS" target="_blank" rel="external">https://zammu.in/jekyll?invitation_code=JEKYLLROCKS</a></h3>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://blog.zammu.in/2016/01/27/how-to-setup-automatic-build-and-deploy-for-a-jekyll-blog-on-github-pages-using-zammu/" data-id="cijwr5qa6000c1do8s211628h" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github-pages/">Github Pages</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jekyll/">Jekyll</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/01/26/how-to-setup-automatic-build-and-deploy-for-an-octopress-blog-on-github-pages-using-zammu/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">How to setup Automatic build and Deploy for an Octopress blog on Github Pages using Zammu</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
+
 </section>
         
           <aside id="sidebar">
