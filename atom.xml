@@ -1,36 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[The Zammu Blog]]></title>
-  <subtitle><![CDATA[Interesting notes on how we run zammu.in]]></subtitle>
+  <title>The Zammu Blog</title>
+  <subtitle>Interesting notes on how we run zammu.in</subtitle>
   <link href="/atom.xml" rel="self"/>
+  
   <link href="http://blog.zammu.in/"/>
-  <updated>2016-02-05T06:22:44.000Z</updated>
+  <updated>2016-02-09T13:11:44.000Z</updated>
   <id>http://blog.zammu.in/</id>
   
   <author>
-    <name><![CDATA[Khaja Minhajuddin]]></name>
+    <name>Khaja Minhajuddin</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[How to setup a Middleman Blog on Github Pages with one click]]></title>
+    <title>Blazing fast builds</title>
+    <link href="http://blog.zammu.in/2016/02/09/blazing-fast-builds/"/>
+    <id>http://blog.zammu.in/2016/02/09/blazing-fast-builds/</id>
+    <published>2016-02-09T12:49:28.000Z</published>
+    <updated>2016-02-09T13:11:44.000Z</updated>
+    
+    <content type="html">&lt;p&gt;We have started caching our npm packages and gems to speed up the builds. This
+has yielded us an impressive speed up of in our deploys. Now, whenever you add a
+site for the first time it caches the gems or npm packages which are used by
+your blog/site. The next time you run the build it uses this cache so that it
+doesn’t have to install the gems or npm packages.&lt;/p&gt;
+&lt;p&gt;I am very happy with the results, The speedups are really impressive.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Static Site Generator&lt;/th&gt;
+&lt;th&gt;Previous Build time&lt;/th&gt;
+&lt;th&gt;Current Build time&lt;/th&gt;
+&lt;th&gt;% increase in performance&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Hexo&lt;/td&gt;
+&lt;td&gt;30 seconds&lt;/td&gt;
+&lt;td&gt;9 seconds&lt;/td&gt;
+&lt;td&gt;233%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Jekyll&lt;/td&gt;
+&lt;td&gt;30 seconds&lt;/td&gt;
+&lt;td&gt;5 seconds&lt;/td&gt;
+&lt;td&gt;500%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Middleman&lt;/td&gt;
+&lt;td&gt;2 minutes 30 seconds&lt;/td&gt;
+&lt;td&gt;7 seconds&lt;/td&gt;
+&lt;td&gt;2042%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Octopress&lt;/td&gt;
+&lt;td&gt;1 minute 15 seconds&lt;/td&gt;
+&lt;td&gt;9 seconds&lt;/td&gt;
+&lt;td&gt;733%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hugo&lt;/td&gt;
+&lt;td&gt;3 seconds&lt;/td&gt;
+&lt;td&gt;3 seconds&lt;/td&gt;
+&lt;td&gt;0%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;One thing to note is the speed of Hugo, it has always been fast :)&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;We have started caching our npm packages and gems to speed up the builds. This
+has yielded us an impressive speed up of in our deploys. N
+    
+    </summary>
+    
+    
+      <category term="Speed" scheme="http://blog.zammu.in/tags/speed/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How to setup a Middleman Blog on Github Pages with one click</title>
     <link href="http://blog.zammu.in/2016/02/05/how-to-setup-a-middleman-blog-on-github-pages-with-one-click/"/>
     <id>http://blog.zammu.in/2016/02/05/how-to-setup-a-middleman-blog-on-github-pages-with-one-click/</id>
     <published>2016-02-05T06:13:08.000Z</published>
-    <updated>2016-02-05T06:22:44.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="Quick_start"><a href="#Quick_start" class="headerlink" title="Quick start"></a>Quick start</h2><p>Go here and follow the UI: <a href="https://zammu.in/themes/danielbayerlein:middleman-casper?invitation_code=THEME" target="_blank" rel="external">https://zammu.in/themes/danielbayerlein:middleman-casper?invitation_code=THEME</a></p>
-<p>We have been trying to find ways to make using Middleman as frictionless as possible.
+    <updated>2016-02-09T13:11:44.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Quick_start&quot;&gt;&lt;a href=&quot;#Quick_start&quot; class=&quot;headerlink&quot; title=&quot;Quick start&quot;&gt;&lt;/a&gt;Quick start&lt;/h2&gt;&lt;p&gt;Go here and follow the UI: &lt;a href=&quot;https://zammu.in/themes/danielbayerlein:middleman-casper?invitation_code=THEME&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://zammu.in/themes/danielbayerlein:middleman-casper?invitation_code=THEME&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We have been trying to find ways to make using Middleman as frictionless as possible.
 We’d love to hear the feedback from the community if there are other things we can improve.
 We plan on adding more such themes using other static site generators which should make static site generators
-more approachable.</p>
-<p>Here is a video of me setting up my Resume using <a href="https://zammu.in/themes/reefab:resumeman" target="_blank" rel="external">another theme avaiable on Zammu</a>.</p>
-<div class="video-container"><iframe src="//www.youtube.com/embed/eIlQk42oNko" frameborder="0" allowfullscreen></iframe></div>
-]]></content>
+more approachable.&lt;/p&gt;
+&lt;p&gt;Here is a video of me setting up my Resume using &lt;a href=&quot;https://zammu.in/themes/reefab:resumeman&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;another theme avaiable on Zammu&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/eIlQk42oNko&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<h2 id="Quick_start"><a href="#Quick_start" class="headerlink" title="Quick start"></a>Quick start</h2><p>Go here and follow the UI: <a href]]>
+    
+      &lt;h2 id=&quot;Quick_start&quot;&gt;&lt;a href=&quot;#Quick_start&quot; class=&quot;headerlink&quot; title=&quot;Quick start&quot;&gt;&lt;/a&gt;Quick start&lt;/h2&gt;&lt;p&gt;Go here and follow the UI: &lt;a href
+    
     </summary>
+    
     
       <category term="Casper" scheme="http://blog.zammu.in/tags/casper/"/>
     
@@ -43,32 +119,37 @@ more approachable.</p>
   </entry>
   
   <entry>
-    <title><![CDATA[How to setup automatic build and deploy for a jekyll blog on github pages using zammu]]></title>
+    <title>How to setup automatic build and deploy for a jekyll blog on github pages using zammu</title>
     <link href="http://blog.zammu.in/2016/01/27/how-to-setup-automatic-build-and-deploy-for-a-jekyll-blog-on-github-pages-using-zammu/"/>
     <id>http://blog.zammu.in/2016/01/27/how-to-setup-automatic-build-and-deploy-for-a-jekyll-blog-on-github-pages-using-zammu/</id>
     <published>2016-01-27T11:22:07.000Z</published>
-    <updated>2016-02-05T06:22:44.000Z</updated>
-    <content type="html"><![CDATA[<p>In this blog post I’ll show you how to setup Automatic Deployment of Jekyll on Github Pages using Zammu.</p>
-<ol>
-<li><p>Setup Jekyll and add a Gemfile</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gem install jekyll</span><br><span class="line">jekyll new my-awesome-blog</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Setup a Gemfile. This step is very important.</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">'source "https://rubygems.org"'</span> &gt;&gt; Gemfile</span><br><span class="line"><span class="built_in">echo</span> <span class="string">'gem "jekyll"'</span> &gt;&gt; Gemfile</span><br></pre></td></tr></table></figure>
-<p>Once you are done with this step you should have a Gemfile with the following content:</p>
-<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">source <span class="string">"https://rubygems.org"</span></span><br><span class="line">gem <span class="string">"jekyll"</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Push it to a Github Repository.</p>
-</li>
-<li>Log in to <a href="https://zammu.in" target="_blank" rel="external">https://zammu.in</a> and create a new site using the “Jekyll” generator</li>
-</ol>
-<p>That’s it. Now you can start creating new posting just by adding content and pushing to Github.</p>
-<h3 id="You_can_use_the_invitation_code_JEKYLLROCKS_to_signup_on_https_3A//zammu-in/jekyll_3Finvitation_code_3DJEKYLLROCKS"><a href="#You_can_use_the_invitation_code_JEKYLLROCKS_to_signup_on_https_3A//zammu-in/jekyll_3Finvitation_code_3DJEKYLLROCKS" class="headerlink" title="You can use the invitation code JEKYLLROCKS to signup on https://zammu.in/jekyll?invitation_code=JEKYLLROCKS"></a>You can use the invitation code <code>JEKYLLROCKS</code> to signup on <a href="https://zammu.in/jekyll?invitation_code=JEKYLLROCKS" target="_blank" rel="external">https://zammu.in/jekyll?invitation_code=JEKYLLROCKS</a></h3>]]></content>
+    <updated>2016-02-09T13:11:44.000Z</updated>
+    
+    <content type="html">&lt;p&gt;In this blog post I’ll show you how to setup Automatic Deployment of Jekyll on Github Pages using Zammu.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Setup Jekyll and add a Gemfile&lt;/p&gt;
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;gem install jekyll&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;jekyll new my-awesome-blog&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Setup a Gemfile. This step is very important.&lt;/p&gt;
+&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39;source &quot;https://rubygems.org&quot;&#39;&lt;/span&gt; &amp;gt;&amp;gt; Gemfile&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&#39;gem &quot;jekyll&quot;&#39;&lt;/span&gt; &amp;gt;&amp;gt; Gemfile&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Once you are done with this step you should have a Gemfile with the following content:&lt;/p&gt;
+&lt;figure class=&quot;highlight ruby&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;source &lt;span class=&quot;string&quot;&gt;&quot;https://rubygems.org&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;gem &lt;span class=&quot;string&quot;&gt;&quot;jekyll&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Push it to a Github Repository.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Log in to &lt;a href=&quot;https://zammu.in&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://zammu.in&lt;/a&gt; and create a new site using the “Jekyll” generator&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That’s it. Now you can start creating new posting just by adding content and pushing to Github.&lt;/p&gt;
+&lt;h3 id=&quot;You_can_use_the_invitation_code_JEKYLLROCKS_to_signup_on_https_3A//zammu-in/jekyll_3Finvitation_code_3DJEKYLLROCKS&quot;&gt;&lt;a href=&quot;#You_can_use_the_invitation_code_JEKYLLROCKS_to_signup_on_https_3A//zammu-in/jekyll_3Finvitation_code_3DJEKYLLROCKS&quot; class=&quot;headerlink&quot; title=&quot;You can use the invitation code JEKYLLROCKS to signup on https://zammu.in/jekyll?invitation_code=JEKYLLROCKS&quot;&gt;&lt;/a&gt;You can use the invitation code &lt;code&gt;JEKYLLROCKS&lt;/code&gt; to signup on &lt;a href=&quot;https://zammu.in/jekyll?invitation_code=JEKYLLROCKS&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://zammu.in/jekyll?invitation_code=JEKYLLROCKS&lt;/a&gt;&lt;/h3&gt;</content>
+    
     <summary type="html">
-    <![CDATA[<p>In this blog post I’ll show you how to setup Automatic Deployment of Jekyll on Github Pages using Zammu.</p>
-<ol>
-<li><p>Setup Jekyll and]]>
+    
+      &lt;p&gt;In this blog post I’ll show you how to setup Automatic Deployment of Jekyll on Github Pages using Zammu.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Setup Jekyll and
+    
     </summary>
+    
     
       <category term="Github Pages" scheme="http://blog.zammu.in/tags/github-pages/"/>
     
@@ -77,25 +158,30 @@ more approachable.</p>
   </entry>
   
   <entry>
-    <title><![CDATA[How to setup Automatic build and Deploy for an Octopress blog on Github Pages using Zammu]]></title>
+    <title>How to setup Automatic build and Deploy for an Octopress blog on Github Pages using Zammu</title>
     <link href="http://blog.zammu.in/2016/01/26/how-to-setup-automatic-build-and-deploy-for-an-octopress-blog-on-github-pages-using-zammu/"/>
     <id>http://blog.zammu.in/2016/01/26/how-to-setup-automatic-build-and-deploy-for-an-octopress-blog-on-github-pages-using-zammu/</id>
     <published>2016-01-26T17:07:42.000Z</published>
-    <updated>2016-02-05T06:22:44.000Z</updated>
-    <content type="html"><![CDATA[<p>In this blog post I’ll show you how to setup Automatic Deployment of Octopress on Github Pages using Zammu.</p>
-<ol>
-<li><a href="https://github.com/zammu/octopress.zammu.in/fork" target="_blank" rel="external">Fork the zammu/octopress.zammu.in repository from Github</a></li>
-<li>Delete this post <code>source/_posts/2016-01-26-automatic-deployment-of-octopress-on-github-pages-using-zammu.markdown</code></li>
-<li>Update the config with your information</li>
-<li>Create a new site in htts://zammu.in using the <em>Octopress</em> static site generator.</li>
-</ol>
-<p>That’s it. Now you can start creating new posts in the <code>source/_posts/directory</code></p>
-<h3 id="You_can_use_the_invitation_code_OCTOPRESSROCKS_to_signup_on_https_3A//zammu-in/octopress_3Finvitation_code_3DOCTOPRESSROCKS"><a href="#You_can_use_the_invitation_code_OCTOPRESSROCKS_to_signup_on_https_3A//zammu-in/octopress_3Finvitation_code_3DOCTOPRESSROCKS" class="headerlink" title="You can use the invitation code OCTOPRESSROCKS to signup on https://zammu.in/octopress?invitation_code=OCTOPRESSROCKS"></a>You can use the invitation code <code>OCTOPRESSROCKS</code> to signup on <a href="https://zammu.in/octopress?invitation_code=OCTOPRESSROCKS" target="_blank" rel="external">https://zammu.in/octopress?invitation_code=OCTOPRESSROCKS</a></h3>]]></content>
+    <updated>2016-02-09T13:11:44.000Z</updated>
+    
+    <content type="html">&lt;p&gt;In this blog post I’ll show you how to setup Automatic Deployment of Octopress on Github Pages using Zammu.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/zammu/octopress.zammu.in/fork&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fork the zammu/octopress.zammu.in repository from Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Delete this post &lt;code&gt;source/_posts/2016-01-26-automatic-deployment-of-octopress-on-github-pages-using-zammu.markdown&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Update the config with your information&lt;/li&gt;
+&lt;li&gt;Create a new site in htts://zammu.in using the &lt;em&gt;Octopress&lt;/em&gt; static site generator.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That’s it. Now you can start creating new posts in the &lt;code&gt;source/_posts/directory&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;You_can_use_the_invitation_code_OCTOPRESSROCKS_to_signup_on_https_3A//zammu-in/octopress_3Finvitation_code_3DOCTOPRESSROCKS&quot;&gt;&lt;a href=&quot;#You_can_use_the_invitation_code_OCTOPRESSROCKS_to_signup_on_https_3A//zammu-in/octopress_3Finvitation_code_3DOCTOPRESSROCKS&quot; class=&quot;headerlink&quot; title=&quot;You can use the invitation code OCTOPRESSROCKS to signup on https://zammu.in/octopress?invitation_code=OCTOPRESSROCKS&quot;&gt;&lt;/a&gt;You can use the invitation code &lt;code&gt;OCTOPRESSROCKS&lt;/code&gt; to signup on &lt;a href=&quot;https://zammu.in/octopress?invitation_code=OCTOPRESSROCKS&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://zammu.in/octopress?invitation_code=OCTOPRESSROCKS&lt;/a&gt;&lt;/h3&gt;</content>
+    
     <summary type="html">
-    <![CDATA[<p>In this blog post I’ll show you how to setup Automatic Deployment of Octopress on Github Pages using Zammu.</p>
-<ol>
-<li><a href="https:/]]>
+    
+      &lt;p&gt;In this blog post I’ll show you how to setup Automatic Deployment of Octopress on Github Pages using Zammu.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:/
+    
     </summary>
+    
     
       <category term="Github Pages" scheme="http://blog.zammu.in/tags/github-pages/"/>
     
@@ -104,29 +190,34 @@ more approachable.</p>
   </entry>
   
   <entry>
-    <title><![CDATA[Trigger your deploys using our brand new API]]></title>
+    <title>Trigger your deploys using our brand new API</title>
     <link href="http://blog.zammu.in/2016/01/26/trigger-your-deploys-using-our-brand-new-api/"/>
     <id>http://blog.zammu.in/2016/01/26/trigger-your-deploys-using-our-brand-new-api/</id>
     <published>2016-01-26T03:28:02.000Z</published>
-    <updated>2016-02-05T06:22:44.000Z</updated>
-    <content type="html"><![CDATA[<p>Today we have added the ability to trigger your deploys via our API.
-You could do this to automatatically publish your draft pages at the end of each day.</p>
-<p>To setup access via the API:</p>
-<ol>
-<li>Visit the site details page and click on the <em>API acess information</em> link. <img src="/2016/01/26/trigger-your-deploys-using-our-brand-new-api/api-deploy1.png" alt="Link to API info" title="Link to API info"></li>
-<li>Copy the curl code which includes your sites id, your api key and your api secret and run it on the terminal. <img src="/2016/01/26/trigger-your-deploys-using-our-brand-new-api/api-deploy2.png" alt="Curl code which shows API usage" title="Curl code which shows API usage"></li>
-<li>Run it on your terminal <img src="/2016/01/26/trigger-your-deploys-using-our-brand-new-api/api-deploy3.png" alt="Terminal with trigger code" title="Terminal with trigger code">
-</li>
-</ol>
-<p><strong>However, make sure that you keep the api_key and the api_secret safe</strong></p>
-<p>If you end up exposing them, you can reset the api_key and api_secret from the users page.
-      </p>
-<p>P.S Don’t try triggering any builds using these keys, I have reset my tokens ;)</p>
-]]></content>
+    <updated>2016-02-09T13:11:44.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Today we have added the ability to trigger your deploys via our API.
+You could do this to automatatically publish your draft pages at the end of each day.&lt;/p&gt;
+&lt;p&gt;To setup access via the API:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Visit the site details page and click on the &lt;em&gt;API acess information&lt;/em&gt; link. &lt;img src=&quot;/2016/01/26/trigger-your-deploys-using-our-brand-new-api/api-deploy1.png&quot; alt=&quot;Link to API info&quot; title=&quot;Link to API info&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Copy the curl code which includes your sites id, your api key and your api secret and run it on the terminal. &lt;img src=&quot;/2016/01/26/trigger-your-deploys-using-our-brand-new-api/api-deploy2.png&quot; alt=&quot;Curl code which shows API usage&quot; title=&quot;Curl code which shows API usage&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Run it on your terminal &lt;img src=&quot;/2016/01/26/trigger-your-deploys-using-our-brand-new-api/api-deploy3.png&quot; alt=&quot;Terminal with trigger code&quot; title=&quot;Terminal with trigger code&quot;&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;However, make sure that you keep the api_key and the api_secret safe&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you end up exposing them, you can reset the api_key and api_secret from the users page.
+      &lt;/p&gt;
+&lt;p&gt;P.S Don’t try triggering any builds using these keys, I have reset my tokens ;)&lt;/p&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<p>Today we have added the ability to trigger your deploys via our API.
-You could do this to automatatically publish your draft pages at the]]>
+    
+      &lt;p&gt;Today we have added the ability to trigger your deploys via our API.
+You could do this to automatatically publish your draft pages at the
+    
     </summary>
+    
     
       <category term="API" scheme="http://blog.zammu.in/tags/api/"/>
     
@@ -137,24 +228,29 @@ You could do this to automatatically publish your draft pages at the]]>
   </entry>
   
   <entry>
-    <title><![CDATA[How to deploy a Middleman website on Github pages using Zammu]]></title>
+    <title>How to deploy a Middleman website on Github pages using Zammu</title>
     <link href="http://blog.zammu.in/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/"/>
     <id>http://blog.zammu.in/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/</id>
     <published>2016-01-22T13:10:21.000Z</published>
-    <updated>2016-02-05T06:22:44.000Z</updated>
-    <content type="html"><![CDATA[<p>Now you can deploy [Middleman] websites on [Github Pages] using [Zammu].</p>
-<h3 id="Step_1"><a href="#Step_1" class="headerlink" title="Step 1"></a>Step 1</h3><p>Click on the <em>New Site</em> button</p>
-<img src="/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/middleman1.png" alt="Screen1" title="Screen1">
-<h3 id="Step_2"><a href="#Step_2" class="headerlink" title="Step 2"></a>Step 2</h3><p>Select the <em>Middleman</em> generator
-<img src="/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/middleman2.png" alt="Screen2" title="Screen2"></p>
-<h3 id="Step_3"><a href="#Step_3" class="headerlink" title="Step 3"></a>Step 3</h3><p>Enter the Title, Subdomain and the Github url <em>zammu/middleman.zammu.in</em> and click <em>Create Site</em>.
-<img src="/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/middleman3.png" alt="Screen3" title="Screen3"></p>
-<p>That’s it, now when you push code to your Github repository.</p>
-]]></content>
+    <updated>2016-02-09T13:11:44.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Now you can deploy [Middleman] websites on [Github Pages] using [Zammu].&lt;/p&gt;
+&lt;h3 id=&quot;Step_1&quot;&gt;&lt;a href=&quot;#Step_1&quot; class=&quot;headerlink&quot; title=&quot;Step 1&quot;&gt;&lt;/a&gt;Step 1&lt;/h3&gt;&lt;p&gt;Click on the &lt;em&gt;New Site&lt;/em&gt; button&lt;/p&gt;
+&lt;img src=&quot;/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/middleman1.png&quot; alt=&quot;Screen1&quot; title=&quot;Screen1&quot;&gt;
+&lt;h3 id=&quot;Step_2&quot;&gt;&lt;a href=&quot;#Step_2&quot; class=&quot;headerlink&quot; title=&quot;Step 2&quot;&gt;&lt;/a&gt;Step 2&lt;/h3&gt;&lt;p&gt;Select the &lt;em&gt;Middleman&lt;/em&gt; generator
+&lt;img src=&quot;/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/middleman2.png&quot; alt=&quot;Screen2&quot; title=&quot;Screen2&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Step_3&quot;&gt;&lt;a href=&quot;#Step_3&quot; class=&quot;headerlink&quot; title=&quot;Step 3&quot;&gt;&lt;/a&gt;Step 3&lt;/h3&gt;&lt;p&gt;Enter the Title, Subdomain and the Github url &lt;em&gt;zammu/middleman.zammu.in&lt;/em&gt; and click &lt;em&gt;Create Site&lt;/em&gt;.
+&lt;img src=&quot;/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/middleman3.png&quot; alt=&quot;Screen3&quot; title=&quot;Screen3&quot;&gt;&lt;/p&gt;
+&lt;p&gt;That’s it, now when you push code to your Github repository.&lt;/p&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<p>Now you can deploy [Middleman] websites on [Github Pages] using [Zammu].</p>
-<h3 id="Step_1"><a href="#Step_1" class="headerlink" title="]]>
+    
+      &lt;p&gt;Now you can deploy [Middleman] websites on [Github Pages] using [Zammu].&lt;/p&gt;
+&lt;h3 id=&quot;Step_1&quot;&gt;&lt;a href=&quot;#Step_1&quot; class=&quot;headerlink&quot; title=&quot;
+    
     </summary>
+    
     
       <category term="Github Pages" scheme="http://blog.zammu.in/tags/github-pages/"/>
     
@@ -163,21 +259,26 @@ You could do this to automatatically publish your draft pages at the]]>
   </entry>
   
   <entry>
-    <title><![CDATA[Creating Banner Images using HTML]]></title>
+    <title>Creating Banner Images using HTML</title>
     <link href="http://blog.zammu.in/2016/01/19/creating-banner-images-using-html/"/>
     <id>http://blog.zammu.in/2016/01/19/creating-banner-images-using-html/</id>
     <published>2016-01-19T09:21:13.000Z</published>
-    <updated>2016-02-05T06:22:44.000Z</updated>
-    <content type="html"><![CDATA[<p>While building <a href="https://zammu.in/" target="_blank" rel="external">Zammu</a>, I had to build some banner images to use for the <a href="https://facebook.com/zammuhq" target="_blank" rel="external">Facebook</a> and <a href="https://twitter.com/zammuhq" target="_blank" rel="external">Twitter</a> cover photos. I am not very good with image editors like <a href="https://www.gimp.org/" target="_blank" rel="external">Gimp</a>. However, I know my way around HTML. These days, you can create any kind of layout with HTML. I just create the HTML needed for my banner image using the awesome <a href="http://getbootstrap.com" target="_blank" rel="external">bootstrap framework</a>. Opened it in Firefox and used the Firefox’s new <a href="https://hacks.mozilla.org/2015/09/trainspotting-firefox-41/" target="_blank" rel="external">“Screenshot Node”</a> feature to grab a snapshot of the image.</p>
-<p>Here is a screenshot of me capturing a screenshot :)</p>
-<img src="/2016/01/19/creating-banner-images-using-html/banner-image-screenshot.png" alt="Banner Image Screenshot" title="Banner Image Screenshot">
-<p>And here is my banner image :)</p>
-<img src="/2016/01/19/creating-banner-images-using-html/banner.png" alt="Banner Image" title="Banner Image">
-<p><strong>Oh, by the way if you want to sign up for Zammu, use the invitation code <a href="https://zammu.in/?invitation_code=ZAMMUBLOG" target="_blank" rel="external">ZAMMUBLOG</a> :)</strong></p>
-]]></content>
+    <updated>2016-02-09T13:11:44.000Z</updated>
+    
+    <content type="html">&lt;p&gt;While building &lt;a href=&quot;https://zammu.in/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Zammu&lt;/a&gt;, I had to build some banner images to use for the &lt;a href=&quot;https://facebook.com/zammuhq&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Facebook&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/zammuhq&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter&lt;/a&gt; cover photos. I am not very good with image editors like &lt;a href=&quot;https://www.gimp.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gimp&lt;/a&gt;. However, I know my way around HTML. These days, you can create any kind of layout with HTML. I just create the HTML needed for my banner image using the awesome &lt;a href=&quot;http://getbootstrap.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;bootstrap framework&lt;/a&gt;. Opened it in Firefox and used the Firefox’s new &lt;a href=&quot;https://hacks.mozilla.org/2015/09/trainspotting-firefox-41/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;“Screenshot Node”&lt;/a&gt; feature to grab a snapshot of the image.&lt;/p&gt;
+&lt;p&gt;Here is a screenshot of me capturing a screenshot :)&lt;/p&gt;
+&lt;img src=&quot;/2016/01/19/creating-banner-images-using-html/banner-image-screenshot.png&quot; alt=&quot;Banner Image Screenshot&quot; title=&quot;Banner Image Screenshot&quot;&gt;
+&lt;p&gt;And here is my banner image :)&lt;/p&gt;
+&lt;img src=&quot;/2016/01/19/creating-banner-images-using-html/banner.png&quot; alt=&quot;Banner Image&quot; title=&quot;Banner Image&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Oh, by the way if you want to sign up for Zammu, use the invitation code &lt;a href=&quot;https://zammu.in/?invitation_code=ZAMMUBLOG&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ZAMMUBLOG&lt;/a&gt; :)&lt;/strong&gt;&lt;/p&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<p>While building <a href="https://zammu.in/" target="_blank" rel="external">Zammu</a>, I had to build some banner images to use for the <a ]]>
+    
+      &lt;p&gt;While building &lt;a href=&quot;https://zammu.in/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Zammu&lt;/a&gt;, I had to build some banner images to use for the &lt;a 
+    
     </summary>
+    
     
       <category term="banner-image" scheme="http://blog.zammu.in/tags/banner-image/"/>
     
@@ -186,32 +287,37 @@ You could do this to automatatically publish your draft pages at the]]>
   </entry>
   
   <entry>
-    <title><![CDATA[How to deploy a hexo website on zammu]]></title>
+    <title>How to deploy a hexo website on zammu</title>
     <link href="http://blog.zammu.in/2016/01/14/how-to-deploy-a-hexo-website-on-zammu/"/>
     <id>http://blog.zammu.in/2016/01/14/how-to-deploy-a-hexo-website-on-zammu/</id>
     <published>2016-01-14T09:01:03.000Z</published>
-    <updated>2016-02-05T06:22:44.000Z</updated>
-    <content type="html"><![CDATA[<p>You can now setup your Zammu websites to be built using the awesome <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> static site generator now.</p>
-<p><link rel="stylesheet" type="text/css" href="http://hugo.zammu.in/asciinema-player.css"></p>
-<script src="http://hugo.zammu.in/asciinema-player.js"></script>
+    <updated>2016-02-09T13:11:44.000Z</updated>
+    
+    <content type="html">&lt;p&gt;You can now setup your Zammu websites to be built using the awesome &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; static site generator now.&lt;/p&gt;
+&lt;p&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://hugo.zammu.in/asciinema-player.css&quot;&gt;&lt;/p&gt;
+&lt;script src=&quot;http://hugo.zammu.in/asciinema-player.js&quot;&gt;&lt;/script&gt;
 
-<p>In this short post I’ll show you how to get your Hexo website built on Github Pages automatically for each git push using <a href="https://zammu.in" target="_blank" rel="external">Zammu</a>.</p>
-<ol>
-<li>Sign up for <a href="https://zammu.in/hexo?invitation_code=HEXOAWESOME" target="_blank" rel="external">zammu.in</a> using the invitation code <code>HEXOAWESOME</code>.</li>
-<li>Link up your Github Profile from zammu.in’s home page after signing in.</li>
-<li>Create a new site using the “Github =&gt; Hexo =&gt; Github” recipe and enter the github url of your hexo website e.g. <em>zammu/hexo.zammu.in</em> with the other details.</li>
-<li>That’s it. Now you whenever you push to your github repository, your website will be built using Hexo and will be published to Github Pages on subdomain.zammu.in</li>
-</ol>
-<p><div id="player-container"></div></p>
-<script src="http://hexo.zammu.in/asciicinema/load-player.js"></script>
+&lt;p&gt;In this short post I’ll show you how to get your Hexo website built on Github Pages automatically for each git push using &lt;a href=&quot;https://zammu.in&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Zammu&lt;/a&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Sign up for &lt;a href=&quot;https://zammu.in/hexo?invitation_code=HEXOAWESOME&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;zammu.in&lt;/a&gt; using the invitation code &lt;code&gt;HEXOAWESOME&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Link up your Github Profile from zammu.in’s home page after signing in.&lt;/li&gt;
+&lt;li&gt;Create a new site using the “Github =&amp;gt; Hexo =&amp;gt; Github” recipe and enter the github url of your hexo website e.g. &lt;em&gt;zammu/hexo.zammu.in&lt;/em&gt; with the other details.&lt;/li&gt;
+&lt;li&gt;That’s it. Now you whenever you push to your github repository, your website will be built using Hexo and will be published to Github Pages on subdomain.zammu.in&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;div id=&quot;player-container&quot;&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;script src=&quot;http://hexo.zammu.in/asciicinema/load-player.js&quot;&gt;&lt;/script&gt;
 
-<hr>
-<p><strong>Here are some commands used to setup your repository</strong></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># init the new site</span></span><br><span class="line">hexo init awesome-hexo-blog</span><br><span class="line"></span><br><span class="line"><span class="comment"># init the repo</span></span><br><span class="line"><span class="built_in">cd</span> awesome-hexo-blog</span><br><span class="line">git init</span><br><span class="line">git commit -m <span class="string">'init'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># now we need to go to github and create our repository and then</span></span><br><span class="line">git remote add origin git@github.com:minhajuddin/awesome-hexo-blog</span><br><span class="line">git push origin master -u</span><br><span class="line"></span><br><span class="line"><span class="comment"># now we need to go to https://zammu.in/hexo and create a new site with the following  info</span></span><br><span class="line"><span class="comment"># Recipe = Github =&gt; Hexo =&gt; Github</span></span><br><span class="line"><span class="comment"># Title = My awesome Blog</span></span><br><span class="line"><span class="comment"># Domain =</span></span><br><span class="line"><span class="comment"># Subdomain = awesomehexo</span></span><br><span class="line"><span class="comment"># Github URL = minhajuddin/awesome-hexo-blog</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"That's it we are done"</span></span><br></pre></td></tr></table></figure>
-]]></content>
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Here are some commands used to setup your repository&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# init the new site&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo init awesome-hexo-blog&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# init the repo&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; awesome-hexo-blog&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git init&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git commit -m &lt;span class=&quot;string&quot;&gt;&#39;init&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# now we need to go to github and create our repository and then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git remote add origin git@github.com:minhajuddin/awesome-hexo-blog&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git push origin master -u&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# now we need to go to https://zammu.in/hexo and create a new site with the following  info&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Recipe = Github =&amp;gt; Hexo =&amp;gt; Github&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Title = My awesome Blog&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Domain =&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Subdomain = awesomehexo&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Github URL = minhajuddin/awesome-hexo-blog&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;That&#39;s it we are done&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<p>You can now setup your Zammu websites to be built using the awesome <a href="https://hexo.io" target="_blank" rel="external">Hexo</a> sta]]>
+    
+      &lt;p&gt;You can now setup your Zammu websites to be built using the awesome &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; sta
+    
     </summary>
+    
     
       <category term="github-pages" scheme="http://blog.zammu.in/tags/github-pages/"/>
     
@@ -224,31 +330,36 @@ You could do this to automatatically publish your draft pages at the]]>
   </entry>
   
   <entry>
-    <title><![CDATA[How to Deploy a Hugo Site on Github using Zammu]]></title>
+    <title>How to Deploy a Hugo Site on Github using Zammu</title>
     <link href="http://blog.zammu.in/2016/01/12/how-to-deploy-a-hugo-site-on-zammu/"/>
     <id>http://blog.zammu.in/2016/01/12/how-to-deploy-a-hugo-site-on-zammu/</id>
     <published>2016-01-12T11:43:45.000Z</published>
-    <updated>2016-02-05T06:22:44.000Z</updated>
-    <content type="html"><![CDATA[<p>You can now setup your zammu sites to build using the <a href="/">Hugo</a> static site generator.</p>
-<p><a href="https://gohugo.io/" target="_blank" rel="external">Hugo</a> is a really fast static site generator. However, it is not
+    <updated>2016-02-09T13:11:44.000Z</updated>
+    
+    <content type="html">&lt;p&gt;You can now setup your zammu sites to build using the &lt;a href=&quot;&quot;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gohugo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hugo&lt;/a&gt; is a really fast static site generator. However, it is not
 very accessible. In this short post I’ll show you how to get your Hugo website
-built on Github automatically for each git push.</p>
-<ol>
-<li>Sign up for <a href="https://zammu.in/?invitation_code=GOHUGO16" target="_blank" rel="external">https://zammu.in/</a> using the invitation code <code>GOHUGO16</code>.</li>
-<li>Link up your Github Profile from zammu.in’s home page after signing in.</li>
-<li>Create a new site using the “Github =&gt; Hugo =&gt; Github” recipe and enter the
- github url of your hugo website e.g. <em>zammu/hugo.zammu.in</em> with the other
- details.</li>
-<li>That’s it. Now you whenever you push to your github repository, your website
-built using Hugo will be published to the subdomain.zammu.in</li>
-</ol>
-<hr>
-<h3 id="Here_is_a_script_which_can_be_used_to_setup_your_repository"><a href="#Here_is_a_script_which_can_be_used_to_setup_your_repository" class="headerlink" title="Here is a script which can be used to setup your repository"></a>Here is a script which can be used to setup your repository</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># init the new site</span></span><br><span class="line">hugo new site awesome-hugo-blog</span><br><span class="line"></span><br><span class="line"><span class="comment"># init the repo</span></span><br><span class="line"><span class="built_in">cd</span> awesome-hugo-blog</span><br><span class="line">git init</span><br><span class="line">git commit -m <span class="string">'init'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># setup the theme</span></span><br><span class="line">git submodule add https://github.com/htdvisser/hugo-base16-theme themes/base16</span><br><span class="line"><span class="comment"># it is VERY important that you add it as a submodule and not just clone it</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># commit the theme</span></span><br><span class="line">git commit -m <span class="string">'added theme'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># update the config</span></span><br><span class="line">vim config.toml</span><br><span class="line">title = <span class="string">"My very awesome blog"</span></span><br><span class="line">theme = <span class="string">"base16"</span></span><br><span class="line">:<span class="built_in">exit</span></span><br><span class="line"></span><br><span class="line">git commit -m <span class="string">'updated config'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># now we need to go to github and create our repository and then</span></span><br><span class="line">git remote add origin git@github.com:minhajuddin/awesome-hugo-blog</span><br><span class="line">git push origin master -u</span><br><span class="line"></span><br><span class="line"><span class="comment"># now we need to go to https://zammu.in/ and create a new site with the following  info</span></span><br><span class="line"><span class="comment"># Recipe = Github =&gt; Hugo =&gt; Github</span></span><br><span class="line"><span class="comment"># Title = My awesome Blog</span></span><br><span class="line"><span class="comment"># Domain =</span></span><br><span class="line"><span class="comment"># Subdomain = awesomehugo</span></span><br><span class="line"><span class="comment"># Github URL = minhajuddin/awesome-hugo-blog</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"That's it we are done"</span></span><br></pre></td></tr></table></figure>
-]]></content>
+built on Github automatically for each git push.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Sign up for &lt;a href=&quot;https://zammu.in/?invitation_code=GOHUGO16&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://zammu.in/&lt;/a&gt; using the invitation code &lt;code&gt;GOHUGO16&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Link up your Github Profile from zammu.in’s home page after signing in.&lt;/li&gt;
+&lt;li&gt;Create a new site using the “Github =&amp;gt; Hugo =&amp;gt; Github” recipe and enter the
+ github url of your hugo website e.g. &lt;em&gt;zammu/hugo.zammu.in&lt;/em&gt; with the other
+ details.&lt;/li&gt;
+&lt;li&gt;That’s it. Now you whenever you push to your github repository, your website
+built using Hugo will be published to the subdomain.zammu.in&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;Here_is_a_script_which_can_be_used_to_setup_your_repository&quot;&gt;&lt;a href=&quot;#Here_is_a_script_which_can_be_used_to_setup_your_repository&quot; class=&quot;headerlink&quot; title=&quot;Here is a script which can be used to setup your repository&quot;&gt;&lt;/a&gt;Here is a script which can be used to setup your repository&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# init the new site&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hugo new site awesome-hugo-blog&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# init the repo&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; awesome-hugo-blog&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git init&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git commit -m &lt;span class=&quot;string&quot;&gt;&#39;init&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# setup the theme&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git submodule add https://github.com/htdvisser/hugo-base16-theme themes/base16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# it is VERY important that you add it as a submodule and not just clone it&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# commit the theme&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git commit -m &lt;span class=&quot;string&quot;&gt;&#39;added theme&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# update the config&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;vim config.toml&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;title = &lt;span class=&quot;string&quot;&gt;&quot;My very awesome blog&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;theme = &lt;span class=&quot;string&quot;&gt;&quot;base16&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;:&lt;span class=&quot;built_in&quot;&gt;exit&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git commit -m &lt;span class=&quot;string&quot;&gt;&#39;updated config&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# now we need to go to github and create our repository and then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git remote add origin git@github.com:minhajuddin/awesome-hugo-blog&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;git push origin master -u&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# now we need to go to https://zammu.in/ and create a new site with the following  info&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Recipe = Github =&amp;gt; Hugo =&amp;gt; Github&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Title = My awesome Blog&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Domain =&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Subdomain = awesomehugo&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# Github URL = minhajuddin/awesome-hugo-blog&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;That&#39;s it we are done&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<p>You can now setup your zammu sites to build using the <a href="/">Hugo</a> static site generator.</p>
-<p><a href="https://gohugo.io/" tar]]>
+    
+      &lt;p&gt;You can now setup your zammu sites to build using the &lt;a href=&quot;&quot;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gohugo.io/&quot; targ
+    
     </summary>
+    
     
       <category term="github-pages" scheme="http://blog.zammu.in/tags/github-pages/"/>
     
@@ -261,20 +372,25 @@ built using Hugo will be published to the subdomain.zammu.in</li>
   </entry>
   
   <entry>
-    <title><![CDATA[Hello World]]></title>
+    <title>Hello World</title>
     <link href="http://blog.zammu.in/2016/01/11/hello-world/"/>
     <id>http://blog.zammu.in/2016/01/11/hello-world/</id>
     <published>2016-01-11T09:01:03.000Z</published>
-    <updated>2016-02-05T06:22:44.000Z</updated>
-    <content type="html"><![CDATA[<p>Hello everyone!</p>
-<p>I am excited to open up Zammu for private beta. This has been a product which has been at the back of my mind for a very long time.</p>
-<p>I hope it helps web developers in building and maintaining websites easily.</p>
-<p>Static sites are awesome, lets make them more accessible!</p>
-]]></content>
+    <updated>2016-02-09T13:11:44.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Hello everyone!&lt;/p&gt;
+&lt;p&gt;I am excited to open up Zammu for private beta. This has been a product which has been at the back of my mind for a very long time.&lt;/p&gt;
+&lt;p&gt;I hope it helps web developers in building and maintaining websites easily.&lt;/p&gt;
+&lt;p&gt;Static sites are awesome, lets make them more accessible!&lt;/p&gt;
+</content>
+    
     <summary type="html">
-    <![CDATA[<p>Hello everyone!</p>
-<p>I am excited to open up Zammu for private beta. This has been a product which has been at the back of my mind for ]]>
+    
+      &lt;p&gt;Hello everyone!&lt;/p&gt;
+&lt;p&gt;I am excited to open up Zammu for private beta. This has been a product which has been at the back of my mind for 
+    
     </summary>
+    
     
       <category term="greetings" scheme="http://blog.zammu.in/tags/greetings/"/>
     

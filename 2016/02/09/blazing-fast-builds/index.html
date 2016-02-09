@@ -3,17 +3,24 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: Zammu | The Zammu Blog</title>
+  <title>Blazing fast builds | The Zammu Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Blog of zammu.in where we discuss interesting things about technology and our community">
-<meta property="og:type" content="website">
-<meta property="og:title" content="The Zammu Blog">
-<meta property="og:url" content="http://blog.zammu.in/tags/zammu/index.html">
+  <meta name="description" content="We have started caching our npm packages and gems to speed up the builds. This
+has yielded us an impressive speed up of in our deploys. Now, whenever you add a
+site for the first time it caches the ge">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Blazing fast builds">
+<meta property="og:url" content="http://blog.zammu.in/2016/02/09/blazing-fast-builds/index.html">
 <meta property="og:site_name" content="The Zammu Blog">
-<meta property="og:description" content="Blog of zammu.in where we discuss interesting things about technology and our community">
+<meta property="og:description" content="We have started caching our npm packages and gems to speed up the builds. This
+has yielded us an impressive speed up of in our deploys. Now, whenever you add a
+site for the first time it caches the ge">
+<meta property="og:updated_time" content="2016-02-09T13:11:44.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="The Zammu Blog">
-<meta name="twitter:description" content="Blog of zammu.in where we discuss interesting things about technology and our community">
+<meta name="twitter:title" content="Blazing fast builds">
+<meta name="twitter:description" content="We have started caching our npm packages and gems to speed up the builds. This
+has yielded us an impressive speed up of in our deploys. Now, whenever you add a
+site for the first time it caches the ge">
 <meta name="twitter:creator" content="@zammuhq">
   
     <link rel="alternative" href="/atom.xml" title="The Zammu Blog" type="application/atom+xml">
@@ -79,39 +86,103 @@ ga('send', 'pageview');
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2016/02/05/how-to-setup-a-middleman-blog-on-github-pages-with-one-click/" class="archive-article-date">
-  <time datetime="2016-02-05T06:13:08.000Z" itemprop="datePublished">Feb 5</time>
+        <section id="main"><article id="post-blazing-fast-builds" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/02/09/blazing-fast-builds/" class="article-date">
+  <time datetime="2016-02-09T12:49:28.000Z" itemprop="datePublished">2016-02-09</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/02/05/how-to-setup-a-middleman-blog-on-github-pages-with-one-click/">How to setup a Middleman Blog on Github Pages with one click</a>
+    <h1 class="article-title" itemprop="name">
+      Blazing fast builds
     </h1>
   
 
-    </header>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>We have started caching our npm packages and gems to speed up the builds. This
+has yielded us an impressive speed up of in our deploys. Now, whenever you add a
+site for the first time it caches the gems or npm packages which are used by
+your blog/site. The next time you run the build it uses this cache so that it
+doesn’t have to install the gems or npm packages.</p>
+<p>I am very happy with the results, The speedups are really impressive.</p>
+<table>
+<thead>
+<tr>
+<th>Static Site Generator</th>
+<th>Previous Build time</th>
+<th>Current Build time</th>
+<th>% increase in performance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hexo</td>
+<td>30 seconds</td>
+<td>9 seconds</td>
+<td>233%</td>
+</tr>
+<tr>
+<td>Jekyll</td>
+<td>30 seconds</td>
+<td>5 seconds</td>
+<td>500%</td>
+</tr>
+<tr>
+<td>Middleman</td>
+<td>2 minutes 30 seconds</td>
+<td>7 seconds</td>
+<td>2042%</td>
+</tr>
+<tr>
+<td>Octopress</td>
+<td>1 minute 15 seconds</td>
+<td>9 seconds</td>
+<td>733%</td>
+</tr>
+<tr>
+<td>Hugo</td>
+<td>3 seconds</td>
+<td>3 seconds</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table>
+<p>One thing to note is the speed of Hugo, it has always been fast :)</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://blog.zammu.in/2016/02/09/blazing-fast-builds/" data-id="cikffg39r00001ho12ewnesnp" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/speed/">Speed</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/02/05/how-to-setup-a-middleman-blog-on-github-pages-with-one-click/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">How to setup a Middleman Blog on Github Pages with one click</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
+
 </section>
         
           <aside id="sidebar">
