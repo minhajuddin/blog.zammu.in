@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.zammu.in/"/>
-  <updated>2016-02-09T13:11:44.000Z</updated>
+  <updated>2016-02-10T16:59:27.000Z</updated>
   <id>http://blog.zammu.in/</id>
   
   <author>
@@ -16,11 +16,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>How to configure your blog for hourly or daily deployment</title>
+    <link href="http://blog.zammu.in/2016/02/10/how-to-configure-your-blog-for-hourly-or-daily-deployment/"/>
+    <id>http://blog.zammu.in/2016/02/10/how-to-configure-your-blog-for-hourly-or-daily-deployment/</id>
+    <published>2016-02-10T16:47:24.000Z</published>
+    <updated>2016-02-10T16:59:27.000Z</updated>
+    
+    <content type="html">&lt;p&gt;We have just added a feature which allows you to trigger deploys every hour or
+every day. This makes it super easy to have a queue of posts in Jekyll or other
+static site generators.&lt;/p&gt;
+&lt;p&gt;All you need to do to enable this is go to your site’s edit page and change the
+&lt;strong&gt;Recurring deploy schedule&lt;/strong&gt; and change it to ‘Every Hour’ or ‘Every Day’&lt;/p&gt;
+&lt;img src=&quot;/2016/02/10/how-to-configure-your-blog-for-hourly-or-daily-deployment/deploy-schedule.png&quot; alt=&quot;deploy-schedule.png&quot; title=&quot;&quot;&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;We have just added a feature which allows you to trigger deploys every hour or
+every day. This makes it super easy to have a queue of pos
+    
+    </summary>
+    
+    
+      <category term="Deployment" scheme="http://blog.zammu.in/tags/deployment/"/>
+    
+      <category term="Future Posts" scheme="http://blog.zammu.in/tags/future-posts/"/>
+    
+      <category term="Publish" scheme="http://blog.zammu.in/tags/publish/"/>
+    
+      <category term="Schedule" scheme="http://blog.zammu.in/tags/schedule/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Blazing fast builds</title>
     <link href="http://blog.zammu.in/2016/02/09/blazing-fast-builds/"/>
     <id>http://blog.zammu.in/2016/02/09/blazing-fast-builds/</id>
     <published>2016-02-09T12:49:28.000Z</published>
-    <updated>2016-02-09T13:11:44.000Z</updated>
+    <updated>2016-02-10T16:59:27.000Z</updated>
     
     <content type="html">&lt;p&gt;We have started caching our npm packages and gems to speed up the builds. This
 has yielded us an impressive speed up of in our deploys. Now, whenever you add a
@@ -90,7 +123,7 @@ has yielded us an impressive speed up of in our deploys. N
     <link href="http://blog.zammu.in/2016/02/05/how-to-setup-a-middleman-blog-on-github-pages-with-one-click/"/>
     <id>http://blog.zammu.in/2016/02/05/how-to-setup-a-middleman-blog-on-github-pages-with-one-click/</id>
     <published>2016-02-05T06:13:08.000Z</published>
-    <updated>2016-02-09T13:11:44.000Z</updated>
+    <updated>2016-02-10T16:59:27.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;Quick_start&quot;&gt;&lt;a href=&quot;#Quick_start&quot; class=&quot;headerlink&quot; title=&quot;Quick start&quot;&gt;&lt;/a&gt;Quick start&lt;/h2&gt;&lt;p&gt;Go here and follow the UI: &lt;a href=&quot;https://zammu.in/themes/danielbayerlein:middleman-casper?invitation_code=THEME&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://zammu.in/themes/danielbayerlein:middleman-casper?invitation_code=THEME&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;We have been trying to find ways to make using Middleman as frictionless as possible.
@@ -123,7 +156,7 @@ more approachable.&lt;/p&gt;
     <link href="http://blog.zammu.in/2016/01/27/how-to-setup-automatic-build-and-deploy-for-a-jekyll-blog-on-github-pages-using-zammu/"/>
     <id>http://blog.zammu.in/2016/01/27/how-to-setup-automatic-build-and-deploy-for-a-jekyll-blog-on-github-pages-using-zammu/</id>
     <published>2016-01-27T11:22:07.000Z</published>
-    <updated>2016-02-09T13:11:44.000Z</updated>
+    <updated>2016-02-10T16:59:27.000Z</updated>
     
     <content type="html">&lt;p&gt;In this blog post I’ll show you how to setup Automatic Deployment of Jekyll on Github Pages using Zammu.&lt;/p&gt;
 &lt;ol&gt;
@@ -162,7 +195,7 @@ more approachable.&lt;/p&gt;
     <link href="http://blog.zammu.in/2016/01/26/how-to-setup-automatic-build-and-deploy-for-an-octopress-blog-on-github-pages-using-zammu/"/>
     <id>http://blog.zammu.in/2016/01/26/how-to-setup-automatic-build-and-deploy-for-an-octopress-blog-on-github-pages-using-zammu/</id>
     <published>2016-01-26T17:07:42.000Z</published>
-    <updated>2016-02-09T13:11:44.000Z</updated>
+    <updated>2016-02-10T16:59:27.000Z</updated>
     
     <content type="html">&lt;p&gt;In this blog post I’ll show you how to setup Automatic Deployment of Octopress on Github Pages using Zammu.&lt;/p&gt;
 &lt;ol&gt;
@@ -194,7 +227,7 @@ more approachable.&lt;/p&gt;
     <link href="http://blog.zammu.in/2016/01/26/trigger-your-deploys-using-our-brand-new-api/"/>
     <id>http://blog.zammu.in/2016/01/26/trigger-your-deploys-using-our-brand-new-api/</id>
     <published>2016-01-26T03:28:02.000Z</published>
-    <updated>2016-02-09T13:11:44.000Z</updated>
+    <updated>2016-02-10T16:59:27.000Z</updated>
     
     <content type="html">&lt;p&gt;Today we have added the ability to trigger your deploys via our API.
 You could do this to automatatically publish your draft pages at the end of each day.&lt;/p&gt;
@@ -232,7 +265,7 @@ You could do this to automatatically publish your draft pages at the
     <link href="http://blog.zammu.in/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/"/>
     <id>http://blog.zammu.in/2016/01/22/how-to-deploy-a-middleman-website-on-github-pages-using-zammu/</id>
     <published>2016-01-22T13:10:21.000Z</published>
-    <updated>2016-02-09T13:11:44.000Z</updated>
+    <updated>2016-02-10T16:59:27.000Z</updated>
     
     <content type="html">&lt;p&gt;Now you can deploy [Middleman] websites on [Github Pages] using [Zammu].&lt;/p&gt;
 &lt;h3 id=&quot;Step_1&quot;&gt;&lt;a href=&quot;#Step_1&quot; class=&quot;headerlink&quot; title=&quot;Step 1&quot;&gt;&lt;/a&gt;Step 1&lt;/h3&gt;&lt;p&gt;Click on the &lt;em&gt;New Site&lt;/em&gt; button&lt;/p&gt;
@@ -263,7 +296,7 @@ You could do this to automatatically publish your draft pages at the
     <link href="http://blog.zammu.in/2016/01/19/creating-banner-images-using-html/"/>
     <id>http://blog.zammu.in/2016/01/19/creating-banner-images-using-html/</id>
     <published>2016-01-19T09:21:13.000Z</published>
-    <updated>2016-02-09T13:11:44.000Z</updated>
+    <updated>2016-02-10T16:59:27.000Z</updated>
     
     <content type="html">&lt;p&gt;While building &lt;a href=&quot;https://zammu.in/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Zammu&lt;/a&gt;, I had to build some banner images to use for the &lt;a href=&quot;https://facebook.com/zammuhq&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Facebook&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/zammuhq&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Twitter&lt;/a&gt; cover photos. I am not very good with image editors like &lt;a href=&quot;https://www.gimp.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gimp&lt;/a&gt;. However, I know my way around HTML. These days, you can create any kind of layout with HTML. I just create the HTML needed for my banner image using the awesome &lt;a href=&quot;http://getbootstrap.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;bootstrap framework&lt;/a&gt;. Opened it in Firefox and used the Firefox’s new &lt;a href=&quot;https://hacks.mozilla.org/2015/09/trainspotting-firefox-41/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;“Screenshot Node”&lt;/a&gt; feature to grab a snapshot of the image.&lt;/p&gt;
 &lt;p&gt;Here is a screenshot of me capturing a screenshot :)&lt;/p&gt;
@@ -291,7 +324,7 @@ You could do this to automatatically publish your draft pages at the
     <link href="http://blog.zammu.in/2016/01/14/how-to-deploy-a-hexo-website-on-zammu/"/>
     <id>http://blog.zammu.in/2016/01/14/how-to-deploy-a-hexo-website-on-zammu/</id>
     <published>2016-01-14T09:01:03.000Z</published>
-    <updated>2016-02-09T13:11:44.000Z</updated>
+    <updated>2016-02-10T16:59:27.000Z</updated>
     
     <content type="html">&lt;p&gt;You can now setup your Zammu websites to be built using the awesome &lt;a href=&quot;https://hexo.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt; static site generator now.&lt;/p&gt;
 &lt;p&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://hugo.zammu.in/asciinema-player.css&quot;&gt;&lt;/p&gt;
@@ -334,7 +367,7 @@ You could do this to automatatically publish your draft pages at the
     <link href="http://blog.zammu.in/2016/01/12/how-to-deploy-a-hugo-site-on-zammu/"/>
     <id>http://blog.zammu.in/2016/01/12/how-to-deploy-a-hugo-site-on-zammu/</id>
     <published>2016-01-12T11:43:45.000Z</published>
-    <updated>2016-02-09T13:11:44.000Z</updated>
+    <updated>2016-02-10T16:59:27.000Z</updated>
     
     <content type="html">&lt;p&gt;You can now setup your zammu sites to build using the &lt;a href=&quot;&quot;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://gohugo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hugo&lt;/a&gt; is a really fast static site generator. However, it is not
@@ -376,7 +409,7 @@ built using Hugo will be published to the subdomain.zammu.in&lt;/li&gt;
     <link href="http://blog.zammu.in/2016/01/11/hello-world/"/>
     <id>http://blog.zammu.in/2016/01/11/hello-world/</id>
     <published>2016-01-11T09:01:03.000Z</published>
-    <updated>2016-02-09T13:11:44.000Z</updated>
+    <updated>2016-02-10T16:59:27.000Z</updated>
     
     <content type="html">&lt;p&gt;Hello everyone!&lt;/p&gt;
 &lt;p&gt;I am excited to open up Zammu for private beta. This has been a product which has been at the back of my mind for a very long time.&lt;/p&gt;
