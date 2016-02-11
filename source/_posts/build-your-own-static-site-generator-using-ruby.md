@@ -11,8 +11,8 @@ command and the output directory in the second step to configure it.
 
 In the following example I am using nanoc to build my websites.
 
-{% attach_img bundle-and-ruby-1.png Step 1, Select the Bundle and Ruby option %}
-{% attach_img bundle-and-ruby2.png Step 2, Fill out the build command and output directory %}
+{% asset_img bundle-and-ruby-1.png Step 1, Select the Bundle and Ruby option %}
+{% asset_img bundle-and-ruby2.png Step 2, Fill out the build command and output directory %}
 
 
 Happy building :)
