@@ -23,3 +23,5 @@ That's it within a few minutes your website will be served on **HTTPS**
 {% asset_img ssl3.png SSL Settings link %}
 
 
+**Huge props to https://letsencrypt.org/ for making SSL management hassle free**
+
