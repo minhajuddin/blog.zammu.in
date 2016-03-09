@@ -2,18 +2,14 @@
   height: banner-height
   position: relative
   border-bottom: 1px solid color-border
-  &:before, &:after
-    content: ""
-    position: absolute
-    left: 0
-    right: 0
-    height: 40px
-  &:before
-    top: 0
-    background: linear-gradient(rgba(0, 0, 0, 0.2), transparent)
-  &:after
-    bottom: 0
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.2))
+
+gradient-start = #fe8c00
+gradient-end = #f83600
+
+#header
+  background: gradient-start; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, gradient-start, gradient-end); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, gradient-start, gradient-end); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 #header-outer
   height: 100%
